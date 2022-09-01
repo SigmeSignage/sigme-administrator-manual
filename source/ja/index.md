@@ -1,4 +1,4 @@
-<!--toc=tour-->
+<!--toc=ntro-->
 
 # [[PRODUCTNAME]]管理者マニュアル 
 
@@ -8,7 +8,7 @@
 
 お客様のインフラに[[PRODUCTNAME]]をインストールする準備ができましたら、ご利用の環境に適したインストールガイドをお選びください。
 
-すでにCMSを導入している場合は、ユーザーマニュアルをご覧いただき、[[PRODUCTNAME]] CMSの機能をすぐにお使いいただけます。
+すでにCMSを導入している場合は、[ユーザーマニュアル](/manual/ja/index.html)をご覧いただき、[[PRODUCTNAME]] CMSの機能をすぐにお使いいただけます。
 
 ## オープンソース
 [[PRODUCTNAME]]のソフトウェアの中心はオープンソースです。[[PRODUCTNAME]]でデジタルサイネージネットワークを運用するために必要なものはすべてオープンソースであり、今後もオープンソースであり続けることをお約束します。
@@ -21,46 +21,48 @@
 
 [[PRODUCTNAME]]は原本であるXiboのライセンスポリシーを継承しています。
 
-原本であるXiboは、いくつかのオープンソースプラットフォームとライブラリの力を借りています。
+[[PRODUCTNAME]]は、いくつかのオープンソースプラットフォームとライブラリの力を借りています。
 
-Xibo - デジタルサイネージ - http://www.xibo.org.uk。
+Xibo - デジタルサイネージ - http://www.xibo.org.uk
+
 [[PRODUCTNAME]] - デジタルサイネージ - https://www.sigme.net
 
+
 Copyright © 2018 Xibo Signage LTD and the Xibo Developers.
-Portion Copyright © 2022 Sigme Project
 
-Xiboおよび[[PRODUCTNAME]]はフリーソフトウェアです：あなたは、Free Software Foundationによって発行されたGNU Affero General Public Licenseのバージョン3またはそれ以降のバージョンのいずれかの条項の下でそれを再頒布および/または変更することができます。
+Portion Copyright © 2022 Sigme Project.
 
-Xiboおよび[[PRODUCTNAME]]は有用であることを願って配布されていますが、市場 性や特定目的適合性についての暗黙の保証も含め、いかなる保証も行いません。詳しくはGNUアフェロ一般公衆利用許諾書をご覧ください。
+[[PRODUCTNAME]]はフリーソフトウェアです：あなたは、[Free Software Foundation](https://www.fsf.org/)によって発行された[GNU Affero General Public License Version 3](https://www.gnu.org/licenses/agpl-3.0.ja.html)またはそれ以降のバージョンのいずれかの条項の下でそれを再頒布および/または変更することができます。
 
-Xiboと一緒にGNU Affero一般公衆利用許諾書のコピーを受け取っているはずです。そうでない場合は、http://www.gnu.org/licenses をご覧ください。
+[[PRODUCTNAME]]は有用であることを願って配布されていますが、市場 性や特定目的適合性についての暗黙の保証も含め、いかなる保証も行いません。詳しくはGNUアフェロ一般公衆利用許諾書をご覧ください。
+
+[[PRODUCTNAME]]と一緒にGNU Affero一般公衆利用許諾書のコピーを受け取っているはずです。そうでない場合は、http://www.gnu.org/licenses をご覧ください。
 
 ## ドキュメント
 このマニュアルは、Creative Commons Attribution ShareAlike UK v2 License の下でライセンスされています。
 
 ## 商用スポンサー
-Xibo は、Xibo Signage によってサポートおよび保守されています。
 [[PRODUCTNAME]]は、Sigme Projectによってサポートおよび保守されています。
 
 ## サードパーティーライセンス
-Xiboおよび[[PRODUCTNAME]]は、サードパーティのライブラリやツールを使用しています。これらは、互換性のあるさまざまなオープンソースライセンスの下でXiboと一緒に提供されています。
+[[PRODUCTNAME]]は、サードパーティのライブラリやツールを使用しています。これらは、互換性のあるさまざまなオープンソースライセンスの下で[[PRODUCTNAME]]と一緒に提供されています。
 
 バックエンドソフトウェアの完全なリストはvendorフォルダに、フロントエンドソフトウェアの完全なリストはtheme/default/librariesフォルダに記載されています。
 
 ## フォント
-Xiboおよび[[PRODUCTNAME]]には、OFLおよびCC-0ライセンスで提供されるフォントが含まれています。
+[[PRODUCTNAME]]には、[OFL](https://licenses.opensource.jp/OFL-1.1/OFL-1.1.html)および[CC-0](https://creativecommons.org/choose/zero/)ライセンスで提供されるフォントが含まれています。
 
--エルロンレギュラー(CC-0)
--エルロンヘビー (CC-0)
--ダンシングスクリプトレギュラー (OFL)
--リニアレギュラー（OFL）
--レイルウェイレギュラー（OFL）
+- Aileron Regular (CC-0)
+- Aileron Heavy (CC-0)
+- Dancing Script Regular (OFL)
+- Linear Regular (OFL)
+- Railway Regular (OFL)
 
 ## コンテンツライセンスについて
-XiboXiboおよび[[PRODUCTNAME]]は、このドキュメントに記載されている以上のコンテンツを規制する手段を持ちませんので、ご注意ください。コンテンツは、そのライセンスに記載された方法で使用されるようにしてください。
+[[PRODUCTNAME]]は、このドキュメントに記載されている以上のコンテンツを規制する手段を持ちませんので、ご注意ください。コンテンツは、そのライセンスに記載された方法で使用されるようにしてください。
 
-## Xiboおよび[[PRODUCTNAME]]の翻訳
-Xibo CMSおよび[[PRODUCTNAME]] CMSは完全に翻訳可能なので、すべての項目とエラーメッセージをローカライズすることができます。デフォルトでは、CMSはユーザーのブラウザーの言語を自動的に検出し、その翻訳が利用可能であればそれを使用します。
+## [[PRODUCTNAME]]の翻訳
+[[PRODUCTNAME]] CMSは完全に翻訳可能なので、すべての項目とエラーメッセージをローカライズすることができます。デフォルトでは、CMSはユーザーのブラウザーの言語を自動的に検出し、その翻訳が利用可能であればそれを使用します。
 
 また、CMSのメインメニューの管理セクションにある設定ページで、地域タブを使用して、特定の言語を使用するように設定することもできます。
 スクリーンショット/画像
@@ -71,7 +73,7 @@ Launchpad は翻訳を管理するために使用され、ここで見ること�
 Launchpad にはヘルプガイドがあり、システムの動作が説明されています。
 
 ## 技術的な詳細
-XiboはGNU GetTextと呼ばれるシステムを使って翻訳を管理しています。このシステムは、ソースコードから英語の「キー」を取り出し、各言語の定義済み翻訳セットに渡します。これらの定義済み翻訳は、「コンパイル済み」形式でMOファイルに格納されており、ソースコードの/localeフォルダにあります。
+[[PRODUCTNAME]]はGNU GetTextと呼ばれるシステムを使って翻訳を管理しています。このシステムは、ソースコードから英語の「キー」を取り出し、各言語の定義済み翻訳セットに渡します。これらの定義済み翻訳は、「コンパイル済み」形式でMOファイルに格納されており、ソースコードの/localeフォルダにあります。
 
 キーはコードでは __() 構文で、Twig ビューでは trans ヘルパーで定義されます。
 
@@ -89,6 +91,4 @@ POEditはCMSの/localeフォルダと互換性のあるMOファイルを作成�
 
 ## プレーヤーの翻訳
 Windowsプレーヤーは英語版のみです。
-
-Xibo for Androidは、スペイン語、フランス語、韓国語、オランダ語、ブラジルポルトガル語、トルコ語で利用可能です。もし、あなたの言語を含めたいのであれば、私たちに連絡してください。
 

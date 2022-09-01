@@ -4,20 +4,24 @@
     "href": "index.html",
     "containsToc": ["intro"]
   },{
-    "title": "CMSインストール",
+    "title": "CMSのインストール",
     "href": "cms_install.html",
     "containsToc": ["cms_install"]
   },{
-    "title": "ディスプレイ",
-    "href": "displays.html",
-    "containsToc": ["displays"]
+    "title": "CMSの設定",
+    "href": "cms_config.html",
+    "containsToc": ["cms_config"]
   },{
-    "title": "レイアウト",
-    "href": "layouts.html",
-    "containsToc": ["layouts"]
+    "title": "CMSのアップアップグレード",
+    "href": "cms_upgrade.html",
+    "containsToc": ["cms_upgrade"]
   },{
-    "title": "メディア",
-    "href": "media.html",
+    "title": "Windowsプレイヤーのインストール",
+    "href": "windows_install.html",
+    "containsToc": ["media", "widgets"]
+  },{
+    "title": "Androidプレイヤーのインストール",
+    "href": "Android_install.html",
     "containsToc": ["media", "widgets"]
   },{
     "title": "スケジューリング",
