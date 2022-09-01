@@ -1,4 +1,4 @@
-<!--toc=ntro-->
+<!--toc=intro-->
 
 # [[PRODUCTNAME]]管理者マニュアル 
 
@@ -39,15 +39,13 @@ Portion Copyright © 2022 Sigme Project.
 [[PRODUCTNAME]]と一緒にGNU Affero一般公衆利用許諾書のコピーを受け取っているはずです。そうでない場合は、http://www.gnu.org/licenses をご覧ください。
 
 ## ドキュメント
-このマニュアルは、Creative Commons Attribution ShareAlike UK v2 License の下でライセンスされています。
+このマニュアルは、[Creative Commons Attribution ShareAlike UK v2 License](https://spdx.org/licenses/CC-BY-SA-2.0-UK.html)の下でライセンスされています。
 
 ## 商用スポンサー
 [[PRODUCTNAME]]は、Sigme Projectによってサポートおよび保守されています。
 
 ## サードパーティーライセンス
 [[PRODUCTNAME]]は、サードパーティのライブラリやツールを使用しています。これらは、互換性のあるさまざまなオープンソースライセンスの下で[[PRODUCTNAME]]と一緒に提供されています。
-
-バックエンドソフトウェアの完全なリストはvendorフォルダに、フロントエンドソフトウェアの完全なリストはtheme/default/librariesフォルダに記載されています。
 
 ## フォント
 [[PRODUCTNAME]]には、[OFL](https://licenses.opensource.jp/OFL-1.1/OFL-1.1.html)および[CC-0](https://creativecommons.org/choose/zero/)ライセンスで提供されるフォントが含まれています。
@@ -58,14 +56,16 @@ Portion Copyright © 2022 Sigme Project.
 - Linear Regular (OFL)
 - Railway Regular (OFL)
 
-## コンテンツライセンスについて
+## コンテンツのライセンスについて
 [[PRODUCTNAME]]は、このドキュメントに記載されている以上のコンテンツを規制する手段を持ちませんので、ご注意ください。コンテンツは、そのライセンスに記載された方法で使用されるようにしてください。
 
 ## [[PRODUCTNAME]]の翻訳
 [[PRODUCTNAME]] CMSは完全に翻訳可能なので、すべての項目とエラーメッセージをローカライズすることができます。デフォルトでは、CMSはユーザーのブラウザーの言語を自動的に検出し、その翻訳が利用可能であればそれを使用します。
 
-また、CMSのメインメニューの管理セクションにある設定ページで、地域タブを使用して、特定の言語を使用するように設定することもできます。
-スクリーンショット/画像
+{tip}
+CMSのメインメニューの管理セクションにある設定ページで、地域タブを使用して、特定の言語を使用するように設定することもできます。
+{/tip}
+
 Launchpad は翻訳を管理するために使用され、ここで見ることができます: https://translations.launchpad.net/xibo. 既存の翻訳を変更したり、新しい翻訳をプロジェクトに含めるには、Launchpadで行う必要があります。
 
 翻訳は製品に依存しないものでなければなりません。Xiboの使い方や独自のテーマに合わせてLaunchpadの翻訳を変更することは許可されません。

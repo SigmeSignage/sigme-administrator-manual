@@ -21,7 +21,7 @@
         <meta name="keywords" content="digital signage, signage, narrow-casting, xibo, open source, agpl, documentation" />
         <meta name="description" content="Sigme is an open source digital signage solution. It supports all main media types and can be interfaced to other sources of data using CSV, Databases or RSS." />
     </head>
-    <body data-toc="ntro">
+    <body data-toc="intro">
         <!-- Copyright 2020 Xibo Signage Ltd. Part of the Xibo Open Source Digital Signage Solution. Released under the AGPLv3 or later. -->
         <nav id="top-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="container">
@@ -52,11 +52,13 @@
             <div class="row">
                 <div class="col-md-3">
                     <ul id="side-nav" class="nav nav-pills nav-stacked">
-                        <li><a href="index.html" data-toc-name="intro">イントロダクション</a></li><li><a href="cms_install.html" data-toc-name="cms_install">CMSのインストール</a></li><li><a href="cms_config.html" data-toc-name="cms_config">CMSの設定</a></li><li><a href="cms_upgrade.html" data-toc-name="cms_upgrade">CMSのアップアップグレード</a></li><li><a href="windows_install.html" data-toc-name="media">Windowsプレイヤーのインストール</a></li><li><a href="Android_install.html" data-toc-name="media">Androidプレイヤーのインストール</a></li><li><a href="scheduling.html" data-toc-name="scheduling">スケジューリング</a></li><li><a href="troubleshooting.html" data-toc-name="troubleshooting">トラブルシューティング</a></li>
+                        <li><a href="index.html" data-toc-name="intro">イントロダクション</a></li><html><body><ul><li class="active"><a href="index.html">イントロダクション<span class="glyphicon glyphicon-arrow-left you-are-here-arrow"></span></a></li>
+<li><a href="intro_version_environment.html">バージョンと対応環境</a></li>
+</ul></body></html><li><a href="cms_install.html" data-toc-name="cms_install">CMSのインストール</a></li><li><a href="cms_config.html" data-toc-name="cms_config">CMSの設定</a></li><li><a href="cms_upgrade.html" data-toc-name="cms_upgrade">CMSのアップアップグレード</a></li><li><a href="windows_install.html" data-toc-name="media">Windowsプレイヤーのインストール</a></li><li><a href="Android_install.html" data-toc-name="media">Androidプレイヤーのインストール</a></li><li><a href="scheduling.html" data-toc-name="scheduling">スケジューリング</a></li><li><a href="troubleshooting.html" data-toc-name="troubleshooting">トラブルシューティング</a></li>
                     </ul>
                 </div>
                 <div class="col-md-9" role="main">
-                    <!--toc=ntro-->
+                    <!--toc=intro-->
 <h1 id="sigme管理者マニュアル">Sigme管理者マニュアル <a href="#sigme管理者マニュアル" class="header-link"><span class="glyphicon glyphicon-link"></span></a></h1>
 <p>Sigme管理者マニュアルへようこそ！このマニュアルでは、Sigmeシステムのインストールとメインセットアップを管理者向けに説明しています。</p>
 <p>Sigmeを使い始めるには、CMSと少なくとも1台のサイネージプレーヤーが必要です。</p>
@@ -77,12 +79,11 @@
 <p>Sigmeは有用であることを願って配布されていますが、市場 性や特定目的適合性についての暗黙の保証も含め、いかなる保証も行いません。詳しくはGNUアフェロ一般公衆利用許諾書をご覧ください。</p>
 <p>Sigmeと一緒にGNU Affero一般公衆利用許諾書のコピーを受け取っているはずです。そうでない場合は、<a href="http://www.gnu.org/licenses">http://www.gnu.org/licenses</a> をご覧ください。</p>
 <h2 id="ドキュメント">ドキュメント <a href="#ドキュメント" class="header-link"><span class="glyphicon glyphicon-link"></span></a></h2>
-<p>このマニュアルは、Creative Commons Attribution ShareAlike UK v2 License の下でライセンスされています。</p>
+<p>このマニュアルは、<a href="https://spdx.org/licenses/CC-BY-SA-2.0-UK.html">Creative Commons Attribution ShareAlike UK v2 License</a>の下でライセンスされています。</p>
 <h2 id="商用スポンサー">商用スポンサー <a href="#商用スポンサー" class="header-link"><span class="glyphicon glyphicon-link"></span></a></h2>
 <p>Sigmeは、Sigme Projectによってサポートおよび保守されています。</p>
 <h2 id="サードパーティーライセンス">サードパーティーライセンス <a href="#サードパーティーライセンス" class="header-link"><span class="glyphicon glyphicon-link"></span></a></h2>
 <p>Sigmeは、サードパーティのライブラリやツールを使用しています。これらは、互換性のあるさまざまなオープンソースライセンスの下でSigmeと一緒に提供されています。</p>
-<p>バックエンドソフトウェアの完全なリストはvendorフォルダに、フロントエンドソフトウェアの完全なリストはtheme/default/librariesフォルダに記載されています。</p>
 <h2 id="フォント">フォント <a href="#フォント" class="header-link"><span class="glyphicon glyphicon-link"></span></a></h2>
 <p>Sigmeには、<a href="https://licenses.opensource.jp/OFL-1.1/OFL-1.1.html">OFL</a>および<a href="https://creativecommons.org/choose/zero/">CC-0</a>ライセンスで提供されるフォントが含まれています。</p>
 <ul>
@@ -92,13 +93,12 @@
 <li>Linear Regular (OFL)</li>
 <li>Railway Regular (OFL)</li>
 </ul>
-<h2 id="コンテンツライセンスについて">コンテンツライセンスについて <a href="#コンテンツライセンスについて" class="header-link"><span class="glyphicon glyphicon-link"></span></a></h2>
+<h2 id="コンテンツのライセンスについて">コンテンツのライセンスについて <a href="#コンテンツのライセンスについて" class="header-link"><span class="glyphicon glyphicon-link"></span></a></h2>
 <p>Sigmeは、このドキュメントに記載されている以上のコンテンツを規制する手段を持ちませんので、ご注意ください。コンテンツは、そのライセンスに記載された方法で使用されるようにしてください。</p>
 <h2 id="sigmeの翻訳">Sigmeの翻訳 <a href="#sigmeの翻訳" class="header-link"><span class="glyphicon glyphicon-link"></span></a></h2>
 <p>Sigme CMSは完全に翻訳可能なので、すべての項目とエラーメッセージをローカライズすることができます。デフォルトでは、CMSはユーザーのブラウザーの言語を自動的に検出し、その翻訳が利用可能であればそれを使用します。</p>
-<p>また、CMSのメインメニューの管理セクションにある設定ページで、地域タブを使用して、特定の言語を使用するように設定することもできます。
-スクリーンショット/画像
-Launchpad は翻訳を管理するために使用され、ここで見ることができます: <a href="https://translations.launchpad.net/xibo">https://translations.launchpad.net/xibo</a>. 既存の翻訳を変更したり、新しい翻訳をプロジェクトに含めるには、Launchpadで行う必要があります。</p>
+<blockquote class="tip"><p>CMSのメインメニューの管理セクションにある設定ページで、地域タブを使用して、特定の言語を使用するように設定することもできます。</p></blockquote>
+<p>Launchpad は翻訳を管理するために使用され、ここで見ることができます: <a href="https://translations.launchpad.net/xibo">https://translations.launchpad.net/xibo</a>. 既存の翻訳を変更したり、新しい翻訳をプロジェクトに含めるには、Launchpadで行う必要があります。</p>
 <p>翻訳は製品に依存しないものでなければなりません。Xiboの使い方や独自のテーマに合わせてLaunchpadの翻訳を変更することは許可されません。</p>
 <p>Launchpad にはヘルプガイドがあり、システムの動作が説明されています。</p>
 <h2 id="技術的な詳細">技術的な詳細 <a href="#技術的な詳細" class="header-link"><span class="glyphicon glyphicon-link"></span></a></h2>
