@@ -1,12 +1,12 @@
 [
   {
-    "title": "ツアー",
+    "title": "イントロダクション",
     "href": "index.html",
-    "containsToc": ["tour"]
+    "containsToc": ["intro"]
   },{
-    "title": "ユーザー",
-    "href": "users.html",
-    "containsToc": ["users"]
+    "title": "CMSインストール",
+    "href": "cms_install.html",
+    "containsToc": ["cms_install"]
   },{
     "title": "ディスプレイ",
     "href": "displays.html",

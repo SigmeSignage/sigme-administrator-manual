@@ -1,29 +1,29 @@
 <?php
 /*
- * Sigme - Digital Signage - https://www.sigme.net
- * Copyright (C) 2022 Sigme Project, Cloud signage Consortium
+ * Xibo - Digital Signage - http://www.xibo.org.uk
+ * Copyright (C) 2006-2015 Spring Signage Ltd
  *
- * This file is part of Sigme.
+ * This file is part of Xibo.
  *
- * Sigme is free software: you can redistribute it and/or modify
+ * Xibo is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * any later version. 
  *
- * Sigme is distributed in the hope that it will be useful,
+ * Xibo is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with Sigme.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Xibo.  If not, see <http://www.gnu.org/licenses/>.
  */ 
 
 # Name of the product
-define('PRODUCT_NAME', 'Sigme');
+define('PRODUCT_NAME', 'Xibo');
 
 # Home page URL
-define('PRODUCT_HOME', 'https://www.sigme.net');
+define('PRODUCT_HOME', 'http://xibo.org.uk');
 
 # Product Support URL
 define('PRODUCT_SUPPORT_URL', 'https://community.xibo.org.uk/');
