@@ -1,2 +1,2 @@
-<!--toc=ntro-->
+<!--toc=cms_install-->
 # CMSのインストール

@@ -50,11 +50,16 @@ Portion Copyright © 2022 Sigme Project.
 ## フォント
 [[PRODUCTNAME]]には、[OFL](https://licenses.opensource.jp/OFL-1.1/OFL-1.1.html)および[CC-0](https://creativecommons.org/choose/zero/)ライセンスで提供されるフォントが含まれています。
 
-- Aileron Regular (CC-0)
-- Aileron Heavy (CC-0)
-- Dancing Script Regular (OFL)
-- Linear Regular (OFL)
-- Railway Regular (OFL)
+- [Aileron Regular (CC-0)](https://fontlibrary.org/en/font/aileron#Aileron-Regular)
+- [Aileron Heavy (CC-0)](https://fontlibrary.org/en/font/aileron#Aileron-Heavy)
+- [Dancing Script Regular (OFL)](https://fontlibrary.org/en/font/dancing)
+- [Linear Regular (OFL)](https://fontlibrary.org/en/font/linear-regular#Linear-Regular)
+- [Railway Regular (OFL)](https://fontlibrary.org/en/font/railway-sans#Railway-Regular)
+
+{tip}
+デフォルトの環境では、日本語フォントは組み込まれていません。したがって日本語はプレーヤーに組み込まれたデフォルトフォントが使用されます。よりデザインされた表示を日本語で行うためにも、Googleが公開している[日本語フォント](https://fonts.google.com/?subset=japanese)等をインストールすることをお勧めします。
+フォントのインストールに関しては、[ユーザーマニュアルのライブラリ](/manual/ja/media_library.html#フォントをアップロード)を参照してください。
+{/tip}
 
 ## コンテンツのライセンスについて
 [[PRODUCTNAME]]は、このドキュメントに記載されている以上のコンテンツを規制する手段を持ちませんので、ご注意ください。コンテンツは、そのライセンスに記載された方法で使用されるようにしてください。
@@ -66,9 +71,11 @@ Portion Copyright © 2022 Sigme Project.
 CMSのメインメニューの管理セクションにある設定ページで、地域タブを使用して、特定の言語を使用するように設定することもできます。
 {/tip}
 
-Launchpad は翻訳を管理するために使用され、ここで見ることができます: https://translations.launchpad.net/xibo. 既存の翻訳を変更したり、新しい翻訳をプロジェクトに含めるには、Launchpadで行う必要があります。
+Launchpad は翻訳を管理するために使用され、[ここ](https://translations.launchpad.net/xibo)で見ることができます。 既存の翻訳を変更したり、新しい翻訳をプロジェクトに含めるには、このLaunchpadで行う必要があります。
 
-翻訳は製品に依存しないものでなければなりません。Xiboの使い方や独自のテーマに合わせてLaunchpadの翻訳を変更することは許可されません。
+{tip}
+翻訳は製品に依存しないものでなければなりません。[[PRODUCTNAME]]の使い方や独自のテーマに合わせてLaunchpadの翻訳を変更することは許可されません。
+{/tip}
 
 Launchpad にはヘルプガイドがあり、システムの動作が説明されています。
 

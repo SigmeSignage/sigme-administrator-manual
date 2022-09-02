@@ -20,6 +20,7 @@
         <!-- META -->
         <meta name="keywords" content="digital signage, signage, narrow-casting, xibo, open source, agpl, documentation" />
         <meta name="description" content="Sigme is an open source digital signage solution. It supports all main media types and can be interfaced to other sources of data using CSV, Databases or RSS." />
+        <script src=”https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js”></script>
     </head>
     <body data-toc="intro">
         <!-- Copyright 2020 Xibo Signage Ltd. Part of the Xibo Open Source Digital Signage Solution. Released under the AGPLv3 or later. -->
@@ -87,19 +88,21 @@
 <h2 id="フォント">フォント <a href="#フォント" class="header-link"><span class="glyphicon glyphicon-link"></span></a></h2>
 <p>Sigmeには、<a href="https://licenses.opensource.jp/OFL-1.1/OFL-1.1.html">OFL</a>および<a href="https://creativecommons.org/choose/zero/">CC-0</a>ライセンスで提供されるフォントが含まれています。</p>
 <ul>
-<li>Aileron Regular (CC-0)</li>
-<li>Aileron Heavy (CC-0)</li>
-<li>Dancing Script Regular (OFL)</li>
-<li>Linear Regular (OFL)</li>
-<li>Railway Regular (OFL)</li>
+<li><a href="https://fontlibrary.org/en/font/aileron#Aileron-Regular">Aileron Regular (CC-0)</a></li>
+<li><a href="https://fontlibrary.org/en/font/aileron#Aileron-Heavy">Aileron Heavy (CC-0)</a></li>
+<li><a href="https://fontlibrary.org/en/font/dancing">Dancing Script Regular (OFL)</a></li>
+<li><a href="https://fontlibrary.org/en/font/linear-regular#Linear-Regular">Linear Regular (OFL)</a></li>
+<li><a href="https://fontlibrary.org/en/font/railway-sans#Railway-Regular">Railway Regular (OFL)</a></li>
 </ul>
+<blockquote class="tip"><p>デフォルトの環境では、日本語フォントは組み込まれていません。したがって日本語はプレーヤーに組み込まれたデフォルトフォントが使用されます。よりデザインされた表示を日本語で行うためにも、Googleが公開している<a href="https://fonts.google.com/?subset=japanese">日本語フォント</a>等をインストールすることをお勧めします。
+フォントのインストールに関しては、<a href="/manual/ja/media_library.html#フォントをアップロード">ユーザーマニュアルのライブラリ</a>を参照してください。</p></blockquote>
 <h2 id="コンテンツのライセンスについて">コンテンツのライセンスについて <a href="#コンテンツのライセンスについて" class="header-link"><span class="glyphicon glyphicon-link"></span></a></h2>
 <p>Sigmeは、このドキュメントに記載されている以上のコンテンツを規制する手段を持ちませんので、ご注意ください。コンテンツは、そのライセンスに記載された方法で使用されるようにしてください。</p>
 <h2 id="sigmeの翻訳">Sigmeの翻訳 <a href="#sigmeの翻訳" class="header-link"><span class="glyphicon glyphicon-link"></span></a></h2>
 <p>Sigme CMSは完全に翻訳可能なので、すべての項目とエラーメッセージをローカライズすることができます。デフォルトでは、CMSはユーザーのブラウザーの言語を自動的に検出し、その翻訳が利用可能であればそれを使用します。</p>
 <blockquote class="tip"><p>CMSのメインメニューの管理セクションにある設定ページで、地域タブを使用して、特定の言語を使用するように設定することもできます。</p></blockquote>
-<p>Launchpad は翻訳を管理するために使用され、ここで見ることができます: <a href="https://translations.launchpad.net/xibo">https://translations.launchpad.net/xibo</a>. 既存の翻訳を変更したり、新しい翻訳をプロジェクトに含めるには、Launchpadで行う必要があります。</p>
-<p>翻訳は製品に依存しないものでなければなりません。Xiboの使い方や独自のテーマに合わせてLaunchpadの翻訳を変更することは許可されません。</p>
+<p>Launchpad は翻訳を管理するために使用され、<a href="https://translations.launchpad.net/xibo">ここ</a>で見ることができます。 既存の翻訳を変更したり、新しい翻訳をプロジェクトに含めるには、このLaunchpadで行う必要があります。</p>
+<blockquote class="tip"><p>翻訳は製品に依存しないものでなければなりません。Sigmeの使い方や独自のテーマに合わせてLaunchpadの翻訳を変更することは許可されません。</p></blockquote>
 <p>Launchpad にはヘルプガイドがあり、システムの動作が説明されています。</p>
 <h2 id="技術的な詳細">技術的な詳細 <a href="#技術的な詳細" class="header-link"><span class="glyphicon glyphicon-link"></span></a></h2>
 <p>SigmeはGNU GetTextと呼ばれるシステムを使って翻訳を管理しています。このシステムは、ソースコードから英語の「キー」を取り出し、各言語の定義済み翻訳セットに渡します。これらの定義済み翻訳は、「コンパイル済み」形式でMOファイルに格納されており、ソースコードの/localeフォルダにあります。</p>
@@ -132,7 +135,6 @@
                 <p>本マニュアルのソースコードは<a href="https://github.com/SigmeSignage/sigme-manual" target="_blank">GitHub</a>で公開しています。</p>
                 <p class="ss_footer_links">現在バージョン:3</p>
 
-                <p class="ss_languages"><a href="../en/index.html">en</a> | <a href="../ja/index.html">ja</a></p>
             </div>
         </footer>
 
