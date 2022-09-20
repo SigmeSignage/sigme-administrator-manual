@@ -1,4 +1,5 @@
-* [CMSのインストール](cms_install.html)
+* [CMSのインストール](cms-installation-guides.html)
 * [Dockerインストール](cms_install_docker.html)
 * [Apache/IISインストール](cms_install_apache_iis.html)
 * [インストール後の設定](cms-post-installation-setup-guide.html)
+* [メンテナンス](cms-maintenance.html)

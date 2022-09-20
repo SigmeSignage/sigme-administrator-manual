@@ -5,11 +5,11 @@
     "containsToc": ["intro"]
   },{
     "title": "CMSのインストール",
-    "href": "cms_install.html",
+    "href": "cms-installation-guides.html",
     "containsToc": ["cms_install"]
   },{
     "title": "CMSの設定",
-    "href": "cms_config.html",
+    "href": "cms-configuration-options.html",
     "containsToc": ["cms_config"]
   },{
     "title": "CMSのアップアップグレード",
@@ -17,19 +17,11 @@
     "containsToc": ["cms_upgrade"]
   },{
     "title": "Windowsプレイヤーのインストール",
-    "href": "windows_install.html",
-    "containsToc": ["media", "widgets"]
+    "href": "windows-installation.html",
+    "containsToc": ["windows_install"]
   },{
     "title": "Androidプレイヤーのインストール",
     "href": "Android_install.html",
-    "containsToc": ["media", "widgets"]
-  },{
-    "title": "スケジューリング",
-    "href": "scheduling.html",
-    "containsToc": ["scheduling"]
-  },{
-    "title": "トラブルシューティング",
-    "href": "troubleshooting.html",
-    "containsToc": ["troubleshooting"]
+    "containsToc": ["android_install"]
   }
 ]
