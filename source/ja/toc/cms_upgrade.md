@@ -1,0 +1,4 @@
+- [CMSのアップグレード](upgrading-the-cms.html)
+- [Dockerインストール](upgrade-xibo-for-docker-install.html)
+- [Dockerインストールへの切り替え](upgrade-and-switch-to-xibo-for-docker-install.html)
+- [手動/カスタムインストール](upgrade-manual-custom-install.html)

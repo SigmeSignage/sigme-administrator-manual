@@ -13,7 +13,7 @@
     "containsToc": ["cms_config"]
   },{
     "title": "CMSのアップアップグレード",
-    "href": "cms_upgrade.html",
+    "href": "upgrading-the-cms.html",
     "containsToc": ["cms_upgrade"]
   },{
     "title": "Windowsプレイヤーのインストール",
