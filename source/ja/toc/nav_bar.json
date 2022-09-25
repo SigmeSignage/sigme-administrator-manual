@@ -21,7 +21,7 @@
     "containsToc": ["windows_install"]
   },{
     "title": "Androidプレイヤーのインストール",
-    "href": "Android_install.html",
+    "href": "android-install.html",
     "containsToc": ["android_install"]
   }
 ]
