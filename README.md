@@ -1,2 +1,3 @@
-# Sigme Creator Guide
-How to create Sigme Digital signage contents for creators
+# Sigme Administrator Manual
+
+This is the manual for Sigme Administrator
