@@ -22,6 +22,6 @@
   },{
     "title": "Androidプレイヤーのインストール",
     "href": "android-install.html",
-    "containsToc": ["android_install"]
+    "containsToc": ["android_install","android_faqs"]
   }
 ]
