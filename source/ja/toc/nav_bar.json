@@ -23,5 +23,13 @@
     "title": "Androidプレイヤーのインストール",
     "href": "android-install.html",
     "containsToc": ["android_install","android_faqs"]
+  },{
+    "title": "プレイヤーのアップグレード",
+    "href": "upgrading-players.html",
+    "containsToc": ["upgrade_player"]
+  },{
+    "title": "トラブルシューティング/FAQ",
+    "href": "troubleshooting-for-administrators.html",
+    "containsToc": ["troubleshooting_faq"]
   }
 ]

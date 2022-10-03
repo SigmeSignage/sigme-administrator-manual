@@ -1,0 +1,3 @@
+- [プレイヤーのアップグレード](upgrading-players.html)
+- [Windowsプレイヤー](upgrading-xibo-for-windows.html)
+- [Androidプレイヤー](upgrading-xibo-for-android.html)
