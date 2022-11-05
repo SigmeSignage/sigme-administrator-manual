@@ -31,5 +31,9 @@
     "title": "トラブルシューティング/FAQ",
     "href": "troubleshooting-for-administrators.html",
     "containsToc": ["troubleshooting_faq"]
+  },{
+    "title": "サーバー環境の構築",
+    "href": "prepare-server.html",
+    "containsToc": ["setup_server"]
   }
 ]
